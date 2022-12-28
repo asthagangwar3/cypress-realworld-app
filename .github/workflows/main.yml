@@ -29,7 +29,6 @@ jobs:
           wait-on-timeout: 120
           record: true
           parallel: true
-          group: "UI - Electron - Windows"
           spec: cypress/tests/ui/*
           config-file: cypress.config.js
         env:
